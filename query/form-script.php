@@ -18,20 +18,9 @@ if (!$conn)
         $dir = trim($_POST['dir_cli']);
 
 
-        $query = "INSERT INTO cliente (cliDocumento, cliNombre, cliApellido, cliTelefono, cliEmail, cliDireccion_residencia) VALUES ('$doc', '$nom', '$ape', '$tel', '$mail', '$dir')"; 
+        $query = "INSERT INTO cliente (idClientes, cliNombre, cliApellido, cliTelefono, cliEmail, cliDireccion_residencia) VALUES ('$doc', '$nom', '$ape', '$tel', '$mail', '$dir')"; 
 
         $res = mysqli_query($conn, $query);
-    
-        if($res){
-
-            /*?>  
-                  <h3 class="alert regi-usu" role="alert">¡Usuario registrado!</h3>     
-                               
-            
-            <?php*/            
-        }
-
-
 
     }
 

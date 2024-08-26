@@ -15,13 +15,11 @@ if (isset($_POST['enviar'])){
     $fila = mysqli_num_rows($query);
     
         
-        if ($fila)
-        {            
-            header("location: ../programacion/Pedidos.php");
+        if ($fila){                        
+            header("location: /Proyectos/Angelos/pedidos.php");
         }
 
-        else
-        {
+        else{
             ?>
             <h3 class="no_connect">¡Usuario y contraseña no coinciden!</h3>            
             <?php

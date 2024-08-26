@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Formulario Login</title>
-    <link rel="stylesheet" href="estilo-index.css">
+    <link rel="stylesheet" href="./css/estilo-index.css" type="text/css">
   </head>
   <body>
     
-    <?php 
-      include("../programacion/query/script.php");
+    <?php      
+      include("/xampp/htdocs/Proyectos/Angelos/query/script.php")
     ?>
 
     <div class="form-login">

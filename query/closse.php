@@ -1,5 +1,5 @@
 <?php
 session_destroy();
-header("location: ../programacion/index.php");
+header("location: ../Angelos/index.php");
 
 ?>

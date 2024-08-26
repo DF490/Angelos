@@ -1,5 +1,5 @@
 <?php 
-      include("../programacion/query/form-script.php");      
+      include("../Angelos/query/form-script.php");      
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -112,7 +112,7 @@
             </div>
         </form>
     </div>
-<form method="post" name="susses-method">
+  <!--<form method="post" name="susses-method">-->
       <div
         class="tab-pane fade"
         data-tab-content
@@ -269,7 +269,7 @@
       
       </div>
     </div>
-</form>
+
     <footer class="bg-dark p-3 mt-5">
       <p class="text-center m-0 text-muted">Pie de página</p>
     </footer>
