@@ -251,8 +251,8 @@ input:focus~.barra::before{
 }
 
 .btn-cliente{
-  width: 300px;
-  background-color: #4CAF50; /* Green */
+  
+    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -272,7 +272,7 @@ input:focus~.barra::before{
 }
 
 .btn-success{
-    width: 300px;
+    
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
